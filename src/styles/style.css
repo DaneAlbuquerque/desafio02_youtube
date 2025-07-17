@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 24px;
+}
+
+/* Navigation styles */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav.nav1 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+img .menu {
+  width: 24px;
+  height: 24px;
+}
+
+img.logo {
+  width: 90px;
+  height: 20px;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  width: 404px;
+  height: 40px;
+}
+
+nav.nav2 {
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+}
+
+.camera,
+.sino {
+  width: 24px;
+  height: 24px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* Main content styles */
+
+main {
+  display: flex;
+  padding: 26px;
+  background-color: #f4f4f4;
+  gap: 16px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 16px;
+  margin-left: 48px;
+}
+
+.video {
+  width: 952px;
+  height: 537px;
+}
+
+aside img {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 510px;
+}
